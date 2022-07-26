@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-rows: repeat(6, 1fr); */
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid black;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+.hidden {
+  /* opacity: 0; */
+  background-color: yellow;
+}
+
+.game-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50%;
+}
